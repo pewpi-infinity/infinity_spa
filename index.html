@@ -1,1 +1,72 @@
-<h1 style='color:red;font-size:40px;text-align:center;margin-top:100px;'>🔥 KRIS — CLEAN SLATE TEST 🔥</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinity SPA</title>
+
+    <style>
+        body {
+            margin: 0;
+            background: #0a0f18;
+            color: white;
+            font-family: Arial, sans-serif;
+            overflow-x: hidden;
+        }
+
+        #drawer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #111e2f;
+            padding: 20px;
+            border-top: 1px solid #0d3d78;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            transform: translateY(0);
+        }
+
+        .drawer-btn {
+            background: #112235;
+            padding: 16px;
+            border-radius: 10px;
+            font-size: 18px;
+            border: 1px solid #0d3d78;
+            color: #cde4ff;
+        }
+
+        #rogersBtn {
+            position: fixed;
+            right: 20px;
+            bottom: 80px;
+            background: #1a74ff;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            border: none;
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="drawer">
+        <div class="drawer-btn">Quantum Visualizer</div>
+        <div class="drawer-btn">Biotuner</div>
+        <div class="drawer-btn">Marketplace</div>
+        <div class="drawer-btn">Socializer</div>
+        <div class="drawer-btn">Auction Arena</div>
+        <div class="drawer-btn">Rogers Brain</div>
+    </div>
+
+    <button id="rogersBtn">R</button>
+
+    <script src="infinity_boot.js"></script>
+    <script src="app_loader.js"></script>
+    <script src="spa.js"></script>
+
+</body>
+</html>
